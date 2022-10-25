@@ -1,6 +1,6 @@
 {
   "name": "@standigm/fe-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "frontend utils for standigm",
   "main": "dist/index.js",
   "scripts": {
