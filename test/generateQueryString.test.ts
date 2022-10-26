@@ -1,5 +1,5 @@
-const assert = require('assert')
-const generateQueryString = require('../generateQueryString')
+import assert from "assert"
+import generateQueryString from "../generateQueryString";
 
 describe('check works only object', () => {
   assert.strictEqual(generateQueryString(0), '')

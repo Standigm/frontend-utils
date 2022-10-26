@@ -1,4 +1,4 @@
-module.exports = function(data: any) {
+export default function isEmpty (data: any) {
   const dataType = typeof data
 
   if (data === null || data === undefined) {

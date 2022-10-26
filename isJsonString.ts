@@ -1,4 +1,4 @@
-module.exports = function(data: string) {
+export default function isJsonString(data: string) {
   try {
     const regex = /^\{.*\}$/
     if (!regex.test(data)) {

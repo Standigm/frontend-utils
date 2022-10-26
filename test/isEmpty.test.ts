@@ -1,5 +1,5 @@
-const assert = require('assert')
-const isEmpty = require('../isEmpty')
+import assert from "assert"
+import isEmpty from "../isEmpty";
 
 describe('check numbers', () => {
   assert.strictEqual(isEmpty(0), false)
@@ -30,5 +30,3 @@ describe('check arrays', () => {
 describe('check object', () => {
   assert.strictEqual(isEmpty({}), true)
 })
-
-

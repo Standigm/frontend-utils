@@ -1,5 +1,5 @@
-const assert = require('assert')
-const isObject = require('../isObject')
+import assert from "assert"
+import isObject from "../isObject";
 
 describe('check works well', () => {
   assert.strictEqual(isObject({}), true)

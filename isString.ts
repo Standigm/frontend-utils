@@ -1,3 +1,3 @@
-module.exports = function(data: any) {
+export default function isString(data: any) {
   return typeof data === 'string'
 }
