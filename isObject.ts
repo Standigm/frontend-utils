@@ -1,3 +1,3 @@
-module.exports = function(data: any) {
+export default function isObject (data: any) {
   return typeof data === 'object' && !Array.isArray(data)
 }

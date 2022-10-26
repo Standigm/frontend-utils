@@ -1,5 +1,5 @@
-const assert = require('assert')
-const isJsonString = require('../isJsonString')
+import assert from "assert"
+import isJsonString from "../isJsonString";
 
 describe('check works well', () => {
   assert.strictEqual(isJsonString('{"a": 1}'), true)

@@ -1,9 +1,12 @@
+import isEmpty from "./isEmpty"
+import isObject from "./isObject"
+
 /**
  * url에 추가할 query string을 리턴
  * @param {*} data Object
  * @returns String
  */
-module.exports = function(data: any) {
+export default function generateQueryString(data: any) {
   if (!isObject(data)) {
     return ''
   }

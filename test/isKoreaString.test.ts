@@ -1,5 +1,5 @@
-const assert = require('assert')
-const isKoreanString = require('../isKoreanString')
+import assert from "assert"
+import isKoreanString from "../isKoreanString";
 
 describe('check works well', () => {
   assert.strictEqual(isKoreanString('안녕하세요'), true)
