@@ -1,6 +1,6 @@
 {
   "name": "@standigm/fe-utils",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "frontend utils for standigm",
   "source": "index.ts",
   "type": "module",
